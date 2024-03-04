@@ -1,12 +1,29 @@
 body {
-    background-color:rgb(255, 255, 224);
+    box-sizing: border-box;
+    background-color: #ffe4e1;
     font-family:"Courier New", sans-serif;
+    color:#493c38;
+}
+div {
+    width: 1100px;
+    margin: 0px auto;
+    background-color: white;
+    border: 20px solid #ff6070;
+    border-style: double;
+}
+img {
+    width: 474px;
+    height: 474px;
+    margin: 0px auto; 
+    display: block;
 }
 h1 {
    font-size:45px;
+   text-align: center;
 }
 h2 {
     font-size:35px;
+    margin: 35px 0px 0px 10px;
 }
 h3 {
     font-size:25px;
@@ -17,3 +34,11 @@ p,li {
 #odin-title {
     font-size:50px;
 }
+p,li,h3 {
+    margin-left:15px;
+}
+ul,ol {
+    padding:0px;
+    list-style-position: inside;
+}
+ 
